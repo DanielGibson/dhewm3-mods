@@ -1,0 +1,3 @@
+[submodule "dentonmod"]
+	path = dentonmod
+	url = git@github.com:DanielGibson/dhewm3-base-mods.git
