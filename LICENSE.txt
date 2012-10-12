@@ -1,0 +1,5 @@
+Most of the code is derived from the Open Source Doom3, published under a (slightly modified) GPLv3, see COPYING.txt
+More specific, it's from the dhewm3 project: https://github.com/dhewm/dhewm3/
+
+The mods have additional authors which may have a copyright on their changes (but it's still the same license).
+
