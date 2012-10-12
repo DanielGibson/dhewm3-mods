@@ -17,3 +17,7 @@ and compile as usual. See the dhewm3 project for details.
 The actual mods lie in the [dhewm3-base-mods](https://github.com/DanielGibson/dhewm3-base-mods)
 repository, one branch per mod (the master branch is just the vanilla base game code from dhewm3)
 and are "linked" as git submodules.
+
+dhewm3's cmake (at least in the aforementioned branch) adds the CMakeLists.txt of this
+repository and the CMakeLists.txt adds all the linked mod subdirectories (which
+themselves have their own CMakeLists.txt).
