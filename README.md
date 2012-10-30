@@ -9,7 +9,7 @@ https://github.com/DanielGibson/dhewm3/tree/mod-support
 
 Clone dhewm3, change to the mod-support branch and pull
 
-	git clone git@github.com:DanielGibson/dhewm3.git
+	git clone https://github.com/DanielGibson/dhewm3.git
 	cd dhewm3
 	git checkout mod-support
 

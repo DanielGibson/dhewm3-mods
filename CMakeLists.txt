@@ -16,12 +16,12 @@ macro(SETUP_MOD name srclist compile_defs)
 	set_target_properties(${name} PROPERTIES PREFIX "")
 
 	# stuff used in #ifdef's in the code
-	set_target_properties(${name} PROPERTIES COMPILE_DEFINITIONS ${compile_defs})
+	set_target_properties(${name} PROPERTIES COMPILE_DEFINITIONS "${compile_defs}")
 
 	# ${CMAKE_SOURCE_DIR} == neo/ - so #includes of idlib/ etc work properly
 	# ${CMAKE_CURRENT_SOURCE_DIR} is the dir this is called from,
 	# e.g. /path/to/dhewm3/neo/mods/dentonmod/
-	set_target_properties(${name} PROPERTIES COMPILE_FLAGS "-I${CMAKE_SOURCE_DIR} -I${CMAKE_CURRENT_SOURCE_DIR}")
+	set_target_properties(${name} PROPERTIES COMPILE_FLAGS "-I${CMAKE_CURRENT_SOURCE_DIR} -I${CMAKE_SOURCE_DIR}")
 	set_target_properties(${name} PROPERTIES LINK_FLAGS "${ldflags}")
 	set_target_properties(${name} PROPERTIES INSTALL_NAME_DIR "@executable_path")
 
