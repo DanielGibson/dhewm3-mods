@@ -1,3 +1,6 @@
 [submodule "dentonmod"]
 	path = dentonmod
 	url = git://github.com/DanielGibson/dhewm3-base-mods.git
+[submodule "cdoom"]
+	path = cdoom
+	url = git://github.com/DanielGibson/dhewm3-base-mods.git

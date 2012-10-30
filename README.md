@@ -1,6 +1,6 @@
 # Some doom3 mods adapted for dhewm3
 
-ok, just one currently...
+Two mods already!
 
 ## How to use this Repository/Compiling
 
