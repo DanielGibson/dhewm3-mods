@@ -1,6 +1,7 @@
-# Some doom3 mods adapted for dhewm3
+# Some Doom3 mods adapted for dhewm3
 
-Two mods already!
+Two mods already: [Denton's Enhanced Doom3](http://doom3.filefront.com/file/Dentons_Enhanced_Doom3;76838)
+and [Classic Doom 3](http://www.moddb.com/mods/classic-doom-3)!
 
 ## How to use this Repository/Compiling
 
