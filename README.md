@@ -1,3 +1,12 @@
+# NOTE: THIS IS DEPRECATED!
+
+**I think I found a better way for mod support in dhewm3: by providing an SDK, similar to the original Mod SDK.  
+See https://github.com/dhewm/dhewm3-sdk for details.  
+It already contains Dentonmod and Classic Doom 3, and more will follow soon!**
+
+I'll only keep this stuff here for reference.
+
+
 # Some Doom3 mods adapted for dhewm3
 
 Two mods already: [Denton's Enhanced Doom3](http://doom3.filefront.com/file/Dentons_Enhanced_Doom3;76838)
